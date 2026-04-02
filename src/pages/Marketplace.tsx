@@ -11,7 +11,7 @@ interface Listing {
   category: string;
   price: number;
   image_url: string | null;
-  location: string | null;
+  location?: string | null;
   type: 'product' | 'service';
   provider: { display_name: string | null; avatar_url: string | null } | null;
   avg_rating: number;
